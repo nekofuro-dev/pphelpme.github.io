@@ -1,9 +1,8 @@
-import * as React from 'react';
+import * as React from "react";
 
 function Dummy() {
-  return (
-    <div className="bg-slate-500 text-3sl">Dummy</div>
-  );
+  console.log("inside dummy");
+  return <div className="bg-slate-500 text-3sl">Dummy</div>;
 }
 
 export default Dummy;
