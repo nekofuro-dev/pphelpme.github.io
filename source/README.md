@@ -1,10 +1,10 @@
 # react-webpack-starter
 
-+ webpack
-+ typescript
-+ eslint
-+ tailwindcss
-+ react-router
+- webpack
+- typescript
+- eslint
+- tailwindcss
+- react-router
 
 Empty project.
 
@@ -13,30 +13,26 @@ Empty project.
 First install dependencies:
 
 ```sh
-npm install
+yarn install
 ```
 
 To run in hot module reloading mode:
 
 ```sh
-npm start
+yarn start
 ```
 
 To create a production build:
 
 ```sh
-npm run build-prod
+yarn run build-prod
 ```
 
 To create a development build:
 
 ```sh
-npm run build-dev
+yarn run build-dev
 ```
-
-## Running
-
-Open the file `dist/index.html` in your browser
 
 ## Credits
 
