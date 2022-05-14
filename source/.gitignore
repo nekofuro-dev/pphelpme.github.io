@@ -4,6 +4,8 @@ coverage/
 node_modules/
 *.log
 
+dist/*
+
 # OS generated files
 .DS_Store
 .DS_Store?

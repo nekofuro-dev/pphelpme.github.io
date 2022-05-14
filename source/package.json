@@ -13,6 +13,7 @@
     "start": "webpack serve --hot --mode development"
   },
   "dependencies": {
+    "daisyui": "^2.14.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-hot-loader": "^4.13.0",
