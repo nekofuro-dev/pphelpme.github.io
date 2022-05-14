@@ -2,7 +2,7 @@
 const webpack = require('webpack');
 const path = require('path');
 const CopyPlugin = require('copy-webpack-plugin');
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+// const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 
 const config = {
@@ -11,7 +11,7 @@ const config = {
     './src/index.tsx',
   ],
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, '../'),
     filename: 'bundle.js',
   },
   module: {
@@ -51,7 +51,7 @@ const config = {
     new CopyPlugin({
       patterns: [{ from: 'src/index.html' }],
     }),
-    new CleanWebpackPlugin(),
+    // new CleanWebpackPlugin(),
   ],
   resolve: {
     plugins: [new TsconfigPathsPlugin()],
