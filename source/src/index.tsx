@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import {
-  BrowserRouter, HashRouter, Route, Routes,
+  HashRouter, Route, Routes,
 } from 'react-router-dom';
 
 import App from './App';
@@ -14,6 +14,7 @@ const mountNode = document.getElementById('app');
 ReactDOM.render(
   <HashRouter>
     <Routes>
+      {/* layout included in App */}
       <Route path="/" element={<App />}>
         <Route path="" element={<HomePage />} />
         <Route path="sqlShowDifferent" element={<SQLShowDifferentPage />} />
